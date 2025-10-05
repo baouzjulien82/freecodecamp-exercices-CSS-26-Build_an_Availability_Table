@@ -1,5 +1,5 @@
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   box-sizing: border-box;
 }
 
@@ -75,10 +75,43 @@ table {
   align-items: center;
 }
 
+#legend span {
+  margin: 5px;
+}
+
 #legend-gradient-container {
   display: flex;
   height: 1rem;
-  width: 100%;
+  width: 200px;
   align-items: center;
   justify-content: center;
+}
+
+table {
+  margin: 20px auto;
+}
+
+thead th {
+  width: 5rem;
+}
+
+tbody td {
+  border-right: 1px solid black;
+}
+
+tr {
+  height: 1.3rem;
+}
+
+.time {
+  vertical-align: top;
+  text-align: right;
+  position: relative;
+  top: -10px;
+}
+
+caption {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
