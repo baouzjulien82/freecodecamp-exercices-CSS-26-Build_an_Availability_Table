@@ -1,10 +1,14 @@
 * {
-  /* border: 1px solid black; */
+  border: 1px solid black; */
   box-sizing: border-box;
 }
 
 html {
   font-family: arial, helvetica,sans-serif;
+}
+
+body {
+  margin: 2px 10px 2px 10px;
 }
 
 :root {
@@ -92,7 +96,7 @@ table {
 }
 
 thead th {
-  width: 5rem;
+  width: 90px;
 }
 
 tbody td {
