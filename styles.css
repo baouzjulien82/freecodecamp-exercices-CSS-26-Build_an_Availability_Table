@@ -1,0 +1,84 @@
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: arial, helvetica,sans-serif;
+}
+
+:root {
+  --color0: #95F527;
+  --color1: #E4F527;
+  --color2: #F5BE27;
+  --color3: #F57327;
+  --color4: #F55E27;
+  --color5: #F52727;
+  --solid-border: 1px solid black ;
+  --dashed-border: 1px dashed black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+.sharp td{
+  border-bottom: var(--solid-border);
+}
+
+.half td{
+  border-bottom: var(--dashed-border);
+}
+
+#legend-gradient {
+  background-image: linear-gradient(
+    to right,
+    var(--color0) 0% 17%,
+    var(--color1) 17% 34%,
+    var(--color2) 34% 51%,
+    var(--color3) 51% 67%,
+    var(--color4) 67% 84%,
+    var(--color5) 84% 100%
+  );
+  height: 1rem;
+  width: 50%;
+  border: var(--solid-border);
+}
+
+#legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#legend-gradient-container {
+  display: flex;
+  height: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
