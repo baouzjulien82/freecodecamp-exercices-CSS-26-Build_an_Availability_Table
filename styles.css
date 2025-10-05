@@ -93,7 +93,8 @@ table {
 
 table {
   margin: 20px auto;
-  width: 100%;
+  max-width: 800px;
+  min-width: 500px;
 }
 
 thead th {
@@ -127,5 +128,9 @@ caption {
   }
   .time {
     width: fit-content;
+  }
+  
+  table {
+    overflow-x: scroll;
   }
 }
