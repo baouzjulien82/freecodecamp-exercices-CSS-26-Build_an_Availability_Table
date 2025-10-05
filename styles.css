@@ -24,7 +24,6 @@ body {
 
 table {
   border-collapse: collapse;
-  width: 100%;
 }
 
 .available-0 {
@@ -94,6 +93,7 @@ table {
 
 table {
   margin: 20px auto;
+  width: 100%;
 }
 
 thead th {
@@ -119,4 +119,13 @@ caption {
   padding: 10px;
   font-weight: bold;
   font-size: 1.3rem;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .time {
+    width: fit-content;
+  }
 }
